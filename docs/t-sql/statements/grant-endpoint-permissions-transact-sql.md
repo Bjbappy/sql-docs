@@ -39,7 +39,7 @@ GRANT permission  [ ,...n ] ON ENDPOINT :: endpoint_name
         SQL_Server_login  
     | SQL_Server_login_from_Windows_login   
     | SQL_Server_login_from_certificate   
-    | SQL_Server_login_from_AsymKey  
+    | SQL_Server_login_from_ascKey  
 ```  
   
 [!INCLUDE[sql-server-tsql-previous-offline-documentation](../../includes/sql-server-tsql-previous-offline-documentation.md)]
@@ -93,11 +93,11 @@ GRANT permission  [ ,...n ] ON ENDPOINT :: endpoint_name
 ## Examples  
   
 ### A. Granting VIEW DEFINITION permission on an endpoint  
- The following example grants `VIEW DEFINITION` permission on endpoint `Mirror7` to [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] login `ZArifin`.  
+ The following example grants `VIEW DEFINITION` permission on endpoint `Mirror7` to [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] login `Bjbappy`.  
   
 ```sql  
 USE master;  
-GRANT VIEW DEFINITION ON ENDPOINT::Mirror7 TO ZArifin;  
+GRANT VIEW DEFINITION ON ENDPOINT::Mirror7 TO Bjbappy;  
 GO  
 ```  
   
